@@ -1,0 +1,25 @@
+- All the images required in the project must resides inside the asset folder (src/assets).
+
+
+                            # ROUTEING
+
+ Define all the routes under navigation.constant.tsx under models/constants (increase readability) and map it in the navigation.tsx, this is for
+ dynamic routing and will reduce the file size and line of code (LOC).
+
+ Use the Link of react-router-dom to navigate in specific page provided that path and element props must be present.
+
+                            # FOLDER STRUCTURE
+
+ Folder structure is clearly explained in the react convention ( https://github.com/selisebt/frontend-conventions/tree/main/react-conventions).
+ All the pages that are to be seen in the screen is defined inside the pages folder and the components required in the page should define under
+ components folder.
+
+                             # WORKING
+
+ - How project get executes?
+ When the project starts, first of all, it executes the index.tsx file and followed by App.tsx and navigation.tsx where
+ all the routes are mapped. We have called header (<Header />) from navigation to keep the same header (nav bar) for all the pages.
+
+ - How the logic under counter.tsx works?
+
+ ......[WIP].....
